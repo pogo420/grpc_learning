@@ -9,6 +9,7 @@ import (
 	"google.golang.org/protobuf/proto"
 )
 
+// checking rpc call
 func main() {
 	request := &protos.RateRequest{Base: "INR", Destination: "USD"}
 
